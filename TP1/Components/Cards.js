@@ -11,10 +11,11 @@ export const cardsContainer = (img, Title, Desc, Precio, Id) =>{
                         <p style="margin: 0; display: inline; font-size:120%; color:Blue;">Precio: $</p>
                         <p style="margin: 0; display: inline; font-size:120%; color:Blue;" class="card-price" font-size:120%; color:LightBlue;>${Precio}</p>
                     </div>
-               
+                
                 <div class="custom-div-buttonMasMenos">
                     <button class="btn btn-danger icon-button ml-2" data-accion="remove"> -            
                     </button>
+                    <p>0</p>
                     <button class="btn btn-success icon-button" data-accion="add"> +
                     </button>
                 </div>

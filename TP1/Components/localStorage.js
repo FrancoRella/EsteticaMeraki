@@ -4,6 +4,7 @@ export const getData = (key) =>{
     return res ? res : []
 }
 
+
 export const setData = (key, array) => {
     try{
         localStorage.setItem(key, JSON.stringify(array))
@@ -12,6 +13,8 @@ export const setData = (key, array) => {
         console.log(error)
     }
 }
+
+
 
 export const deleteData = (key) => {
     localStorage.removeItem(key)
@@ -23,7 +26,7 @@ export const updateCounter = itemsData => {
 }
 
 export const removeElement = (array, prodId) =>{
-    arr = arr.filter(item => item.Id !== prodId);
+    array = array.filter(item => item.Id !== prodId);
     return array;
 }
 

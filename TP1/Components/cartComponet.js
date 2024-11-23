@@ -82,6 +82,8 @@ function removCar(id) {
 }
 
 
+
+
 function carroActualizado() {
     
     
@@ -90,7 +92,7 @@ function carroActualizado() {
      productsContainer.innerHTML = ``;
     if (productCar.length > 0) {
         productCar.forEach((producto) => {
-            montoTotal += (producto.Precio );
+            montoTotal += parseFloat(producto.Precio );
             productsContainer.innerHTML += `
             <div class="unit" id="${producto.id}">
                 <div class="d-flex justify-content-between align-items-center mt-1">
