@@ -12,7 +12,7 @@ const navLogout=[
 ]
 
 const navElementsR = [
- {class: 'navbar-brand', title: 'Carro de compras', link: `../Pages/Carrito.html`}]
+ {class: 'navbar-brand', title: 'Carrito', link: `../Pages/Carrito.html`}]
     
 
 
@@ -36,17 +36,17 @@ export const navBar = `
                        `
                     }).join('')
                 }
-                
-                </ul>    
-               
-               
-                 <div class="ms-auto">
+
                  
-                  ${
+                </ul>    
+         
+                 <div class="ms-auto">   
+                    ${
                   navElementsR.map(e => {
                 return ` <a class="${e.class}" href="${e.link}">${e.title}</a>`
                 }).join('')
-                 }           
+                 }    
+                    
                    
                   ${
                     navLogout.map(e=>{
@@ -57,6 +57,7 @@ export const navBar = `
                   
                   
                   }
+                
                  
               </div>    
           </div>

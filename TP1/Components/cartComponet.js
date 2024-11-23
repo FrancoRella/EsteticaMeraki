@@ -98,22 +98,25 @@ function carroActualizado() {
                 <div class="d-flex justify-content-between align-items-center mt-1">
                 <div class="d-flex flex-column">
                     <div>
-                        <p style="margin: 0; display: inline; font-size:120%; color:LightBlue;" class="me-3">Producto:</p>
-                        <p style="margin: 0; display: inline; font-size:120%">${producto.Title}</p>
+                        <p style="margin: 0; display: inline; font-size:120%; color:Black; font-weight:bold;" class="me-3">Producto:</p>
+                        <p style="margin: 0; display: inline; font-size:120% ">${producto.Title}</p>
                     </div>
                     <div>
-                        <p style="margin: 0; display: inline; font-size:120%; color:LightBlue;" class="me-3">Precio:</p>
+                        <p style="margin: 0; display: inline; font-size:120%; color:Black; font-weight:bold;" class="me-3">Precio:</p>
                         <p style="margin: 0; display: inline; font-size:120%">$${producto.Precio}</p>
-                    </div>
-                <hr class="bg-secondary border-2 border-top border-secondary" />
-            </div>
+                        </div>
+                            <hr class="bg-secondary border-2 border border-primary" />
+                        </div>
+              
             `;
         });
     } else {
-        productsContainer.innerHTML = '<p style="margin: 0; display: inline; font-size:120%; color:LightBlue;" class="me-3">No se agregaron productos al carro</p>';
+        productsContainer.innerHTML = '<p style="margin: 0; display: inline; font-size:120%; color:Black; font-weight:bold;" class="me-3">No se agregaron productos al carro</p>';
         btnContainer.innerHTML = ``;
         montoTotal = 0
     }
     montoTotal = montoTotal.toFixed(2);
     document.getElementById('total').innerHTML = `Total: $${montoTotal}`;
 }
+
+
