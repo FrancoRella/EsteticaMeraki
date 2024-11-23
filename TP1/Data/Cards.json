@@ -1,0 +1,64 @@
+[
+    {
+        "Categoria":"Maquillaje",
+        "img": "../images/LoveCrazy.webp",
+        "Title": "Love Crazy",
+        "Desc": "Set de maquillaje completo",
+        "Precio": 35000,
+        "Id":"1"
+       
+    },
+
+    {
+        "Categoria":"Pestaña",
+        "img": "../images/Lifting.webp",
+        "Title": "Inconsing",
+        "Desc": "Kit Para Permanente De Pestañas Lifting Completo Iconsign",
+        "Precio": 28000,
+        "Id":"2"
+        
+   
+    },
+
+    {
+        "Categoria":"Maquillaje",
+        "img": "../images/Maletin.webp",
+        "Title": "Set Cameo",
+        "Desc": "Set Maletin De Maquillaje Cameo Leopardo",
+        "Precio": 82187,
+        "Id":"3"
+       
+    },
+
+    {
+        "Categoria":"Maquillaje",
+        "img": "../images/Brochas.webp",
+        "Title": "Set de brochas",
+        "Desc": "Set De Brochas Profesional Gadnic Maquillaje Alta Gama + Estuche Color Negro",
+        "Precio": 11000,
+        "Id":"4"
+     
+    },
+
+    {
+        "Categoria":"Maquillaje",
+        "img":"../images/Tonalizador.webp",
+        "Title": "Tonalizador",
+        "Desc": "Rubor Tonalizador En Sombra Cremosa Para Contour Regina",
+        "Precio": 19500,
+        "Id":"5"
+       
+    },
+
+    
+    {
+        "Categoria":"Pestañas",
+        "img": "../images/KitPestañas.webp",
+        "Title": "Permanente de pestañas",
+        "Desc": "Lash Perm Kit Para Permanente De Pestañas Lash Completo",
+        "Precio": 19000,
+        "Id":"6"
+       
+    }
+
+]
