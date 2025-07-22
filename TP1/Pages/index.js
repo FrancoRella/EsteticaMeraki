@@ -1,7 +1,6 @@
 
- 
-
 import { navBar } from "../Components/navBar.js";
+
 
 
 let navContainer = document.querySelector('header')

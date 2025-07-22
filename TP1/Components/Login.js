@@ -3,7 +3,6 @@ window.addEventListener('load', ()=>{
 })
 
 
-
 document.getElementById('registro').addEventListener('click', function (){
     window.location.href = '../Pages/Registro.html';
 

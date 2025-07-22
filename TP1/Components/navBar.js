@@ -28,6 +28,7 @@ export const navBar = `
                 
                   
                  ${
+                
                     navElements.map(e=> {
                        return `
                        <li class="nav-item ">

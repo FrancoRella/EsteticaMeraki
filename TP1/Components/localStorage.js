@@ -22,7 +22,8 @@ export const deleteData = (key) => {
 
 export const updateCounter = itemsData => {
 
-    return itemsData.length;
+    return itemsData.reduce((total, item) => total+ item.Count,0);
+    /*return itemsData.length;*/
 }
 
 export const removeElement = (array, prodId) =>{
